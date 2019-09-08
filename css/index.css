@@ -1,0 +1,33 @@
+body {
+    background: rgba(245, 233, 220, 0.75) !important;
+}
+
+.navbar-brand {
+    text-shadow: 2px 2px darkgrey;
+    font-weight: bold;
+}
+
+.card-body {
+    box-shadow: 3px 3px 7px darkgrey;
+    border-radius: 3px;
+}
+
+.balance-card1 {
+    background-color: rgba(163, 70, 70, 0.75);
+}
+
+.balance-card2 {
+    background-color: rgba(178, 102, 178, 0.75);
+}
+
+#morning-message {
+    text-shadow: 1px 2px darkgrey;
+}
+
+
+/* media queries */
+@media (max-width: 768px) {
+    #morning-message {
+        font-size: 2em;
+    }
+}
