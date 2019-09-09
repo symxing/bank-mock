@@ -23,7 +23,16 @@
     <!-- nav -->
     <nav class="navbar navbar-light" style="background-color: rgb(134, 172, 179)">
         <a class="navbar-brand" href="index.html">Your Bank</a>
-        <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+        <div class="btn-group mr-3">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+                <span class="caret"></span></button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Profile</a>
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <a class="dropdown-item" href="#">Contact Us</a>
+                </div>
+        </div>
     </nav>
 
     <!-- goodmorning banner -->
@@ -81,26 +90,36 @@
     </div>
 
     <!-- other services cards -->
-    <div class="container-fluid mt-3">
+    <div class="container-fluid mt-4">
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-4 col-sm-12">
                 <div class="card m-1">
                     <div class="card-body">
                         <h5 class="card-title">
                             Service 1
                         </h5>
+                        <div class="row">
+                            <div class="col-3 icon-div">
+                                <i id="amazon-pay" class="card-subtitle fab fa-amazon-pay fa-3x mt-2 ml-2"></i>
+                            </div>
+                            <div class="col-9">
+                                <p class="card-text" style="font-size: 0.75em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Justo donec enim diam vulputate ut pharetra.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-4 col-sm-12">
                 <div class="card m-1">
                     <div class="card-body">
                         <h5 class="card-title">
                             Service 2
                         </h5>
                         <div class="row">
-                            <div class="col-3">
-                                <i class="card-subtitle fas fa-cash-register fa-3x mt-4"></i>
+                            <div class="col-3 icon-div">
+                                <i id="cash-register" class="card-subtitle fas fa-cash-register fa-3x mt-2 ml-3"></i>
                             </div>
                             <div class="col-9">
                                 <p class="card-text" style="font-size: 0.75em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -109,6 +128,53 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="card m-1">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Service 3
+                        </h5>
+                        <div class="row">
+                            <div class="col-3 icon-div">
+                                <i id="amazon-pay" class="card-subtitle fab fa-cc-visa fa-3x mt-2 ml-2"></i>
+                            </div>
+                            <div class="col-9">
+                                <p class="card-text" style="font-size: 0.75em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Justo donec enim diam vulputate ut pharetra.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 mt-5">
+                <ul class="links">
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="disclaimer" class="col-12 mt-5">
+                <h4>Investment and Insurance Products: Are Not FDIC Insured • Are Not Bank Guaranteed • May Lose Value • Are Not a Deposit •
+                Are Not Insured by Any Federal Government Agency
+                Banking and lending products and services are offered by Capital One, N.A., and Capital One Bank (USA), N.A., Members
+                FDIC.</h4>
+                <p>Investment products are offered by Capital One Investing, LLC, a registered broker-dealer and Member FINRA/SIPC.
+                Investment advisory services are provided by Capital One Advisors, LLC, an SEC-registered investment advisor. Insurance
+                products are offered through Capital One Agency LLC.
+                All are subsidiaries of Capital One Financial Corporation.</p>
             </div>
         </div>
     </div>
